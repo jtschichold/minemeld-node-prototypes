@@ -1,0 +1,26 @@
+url: https://www.trustar.co/
+description: >
+    The TruSTAR platform protects and incentivizes intelligence exchange
+    among peers, partners, and groups.
+
+prototypes:
+    indicators:
+        author: MineMeld Core Team
+        development_status: EXPERIMENTAL
+        node_type: miner
+        indicator_types: any
+        tags:
+            - ConfidenceHigh
+            - ShareLevelRed
+        description: >
+            Miner for TruSTAR API. You need valid TruSTAR API credentials
+            to use this Miner.
+        class: minemeld.ft.trustar.Indicators
+        config:
+            age_out:
+                default: last_seen+90d
+                sudden_death: false
+                interval: 1800
+            attributes:
+                share_level: red
+                confidence: 80
