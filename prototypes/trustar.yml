@@ -4,18 +4,19 @@ description: >
     among peers, partners, and groups.
 
 prototypes:
-    indicators:
+    reports:
         author: MineMeld Core Team
         development_status: EXPERIMENTAL
         node_type: miner
-        indicator_types: any
+        indicator_types:
+            - any
         tags:
             - ConfidenceHigh
             - ShareLevelRed
         description: >
             Miner for TruSTAR API. You need valid TruSTAR API credentials
             to use this Miner.
-        class: minemeld.ft.trustar.Indicators
+        class: minemeld.ft.trustar.Reports
         config:
             age_out:
                 default: last_seen+90d
