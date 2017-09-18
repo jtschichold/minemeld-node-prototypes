@@ -4,6 +4,7 @@ description: >
 
 prototypes:
     cloudIPs:
+        name: Microsoft Azure Public IP Address Ranges
         author: MineMeld Core Team
         development_status: STABLE
         node_type: miner

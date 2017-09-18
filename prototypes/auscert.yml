@@ -5,6 +5,8 @@ description: >
 
 prototypes:
     7days_combo:
+        name: AusCERT 7 Days Combo
+        description: 7 days combo
         author: Simon Coggins
         development_status: STABLE
         node_type: miner
@@ -12,7 +14,6 @@ prototypes:
         tags:
             - ConfidenceHigh
             - ShareLevelRed
-        description: 7 days combo
         config:
             age_out:
                 default: null
@@ -29,6 +30,7 @@ prototypes:
         class: minemeld.ft.auscert.MaliciousURLFeed
 
     7days_malware:
+        name: AusCERT 7 Days Malware
         author: Simon Coggins
         development_status: STABLE
         node_type: miner
@@ -53,6 +55,7 @@ prototypes:
         class: minemeld.ft.auscert.MaliciousURLFeed
 
     7days_phishing:
+        name: AusCERT 7 Days Phishing
         author: Simon Coggins
         development_status: STABLE
         node_type: miner
@@ -77,6 +80,7 @@ prototypes:
         class: minemeld.ft.auscert.MaliciousURLFeed
 
     7days_dumpsites:
+        name: AusCERT 7 Days Dump Sites
         author: MineMeld Core Team
         development_status: DEPRECATED
         node_type: miner
@@ -94,6 +98,7 @@ prototypes:
         class: minemeld.ft.http.HttpFT
 
     7days_muling:
+        name: AusCERT 7 Days Muling
         author: MineMeld Core Team
         development_status: DEPRECATED
         node_type: miner
@@ -111,6 +116,7 @@ prototypes:
         class: minemeld.ft.http.HttpFT
 
     1day_combo:
+        name: AusCERT 1 Day Combo
         author: Simon Coggins
         development_status: STABLE
         node_type: miner
@@ -135,6 +141,7 @@ prototypes:
         class: minemeld.ft.auscert.MaliciousURLFeed
 
     1day_malware:
+        name: AusCERT 1 Day Malware
         author: Simon Coggins
         development_status: STABLE
         node_type: miner
@@ -159,6 +166,7 @@ prototypes:
         class: minemeld.ft.auscert.MaliciousURLFeed
 
     1day_phishing:
+        name: AusCERT 1 Day Phishing
         author: Simon Coggins
         development_status: STABLE
         node_type: miner
@@ -183,6 +191,7 @@ prototypes:
         class: minemeld.ft.auscert.MaliciousURLFeed
 
     1day_dumpsites:
+        name: AusCERT 1 Day Dumpsites
         author: MineMeld Core Team
         development_status: DEPRECATED
         node_type: miner
@@ -200,6 +209,7 @@ prototypes:
         class: minemeld.ft.http.HttpFT
 
     1day_muling:
+        name: AusCERT 1 Day Muling
         author: MineMeld Core Team
         development_status: DEPRECATED
         node_type: miner

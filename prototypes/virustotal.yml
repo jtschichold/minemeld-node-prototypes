@@ -6,6 +6,7 @@ description: >
 
 prototypes:
     notifications:
+        name: VirusTotal Retro Hunt Notifications
         author: MineMeld Core Team
         development_status: EXPERIMENTAL
         node_type: miner
@@ -18,6 +19,12 @@ prototypes:
             - ShareLevelRed
         description: >
             Miner for VirusTotal Intelligence Notifications feed.
+        params:
+            -   name: api_key
+                description: Private API Key
+                type: password
+                help: VirusTotal Private API Key
+                required: true
         config:
             attributes:
                 confidence: 100

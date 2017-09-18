@@ -5,6 +5,7 @@ description: >
 
 prototypes:
     AMAZON:
+        name: Amazon Web Services Address Ranges
         author: MineMeld Core Team
         development_status: STABLE
         description: all AMAZON ranges
@@ -33,6 +34,7 @@ prototypes:
                 confidence: 100
                 share_level: green
     EC2:
+        name: Amazon Web Services EC2 Address Ranges
         author: MineMeld Core Team
         development_status: STABLE
         description: EC2 ranges
@@ -61,6 +63,7 @@ prototypes:
                 confidence: 100
                 share_level: green
     ROUTE53:
+        name: Amazon Web Services Route53 Address Ranges
         author: MineMeld Core Team
         development_status: STABLE
         description: ROUTE53 ranges
@@ -89,6 +92,7 @@ prototypes:
                 confidence: 100
                 share_level: green
     ROUTE53_HEALTHCHECKS:
+        name: Amazon Web Services Route53 HealtChecks Address Ranges
         author: MineMeld Core Team
         development_status: STABLE
         description: ROUTE53_HEALTHCHECKS ranges
@@ -117,6 +121,7 @@ prototypes:
                 confidence: 100
                 share_level: green
     CLOUDFRONT:
+        name: Amazon Web Services Cloudfront Address Ranges
         author: MineMeld Core Team
         development_status: STABLE
         description: CLOUDFRONT ranges
@@ -145,6 +150,7 @@ prototypes:
                 confidence: 100
                 share_level: green
     S3:
+        name: Amazon Web Services S3 Address Ranges
         author: MineMeld Core Team
         development_status: STABLE
         description: S3 ranges

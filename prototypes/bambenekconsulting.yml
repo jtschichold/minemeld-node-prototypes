@@ -6,6 +6,7 @@ url: http://osint.bambenekconsulting.com/feeds/
 
 prototypes:
     c2_ipmasterlist:
+        name: Bambenek Consulting C2 IP Feed
         author: MineMeld Core Team
         development_status: STABLE
         node_type: miner
@@ -36,6 +37,7 @@ prototypes:
                 share_level: green
             source_name: bambenekconsulting.c2_ipmasterlist
     c2_dommasterlist:
+        name: Bambenek Consulting C2 Domain Feed
         author: MineMeld Core Team
         development_status: STABLE
         node_type: miner
@@ -66,6 +68,7 @@ prototypes:
                 share_level: green
             source_name: bambenekconsulting.c2_dommasterlist
     c2_ipmasterlist_high:
+        name: Bambenek Consulting High-Confidence C2 IP Feed
         author: MineMeld Core Team
         development_status: STABLE
         node_type: miner
@@ -96,6 +99,7 @@ prototypes:
                 share_level: green
             source_name: bambenekconsulting.c2_ipmasterlist_high
     c2_dommasterlist_high:
+        name: Bambenek Consulting High-Confidence C2 Domain Feed
         author: MineMeld Core Team
         development_status: STABLE
         node_type: miner

@@ -10,6 +10,10 @@ description: >
 
 prototypes:
     opticAPI:
+        name: Anomali Optic API
+        description: >
+            Miner for Anomali Optic API. You need a valid Optic API Key
+            to use this Miner.
         author: MineMeld Core Team
         development_status: EXPERIMENTAL
         node_type: miner
@@ -19,9 +23,6 @@ prototypes:
             - ConfidenceLow
             - ConfidenceMedium
             - ShareLevelRed
-        description: >
-            Miner for Anomali Optic API. You need a valid Optic API Key
-            to use this Miner.
         class: minemeld.ft.anomali.Intelligence
         config:
             age_out:

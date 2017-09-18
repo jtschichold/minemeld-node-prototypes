@@ -6,6 +6,7 @@ url: https://www.badips.com
 
 prototypes:
     blocklist_any_3_2weeks:
+        name: badips.com 2 Weeks Blocklist
         author: CERT (uc3m.es)
         development_status: STABLE
         node_type: miner
