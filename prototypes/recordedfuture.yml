@@ -8,6 +8,7 @@ description: >
 
 prototypes:
     IPRiskList:
+        name: Recorded Future IP Risk List
         author: MineMeld Core Team
         development_status: STABLE
         node_type: miner
@@ -25,6 +26,12 @@ prototypes:
             evidence details for risk scores. To access this resource, you need
             a valid API token.
         class: minemeld.ft.recordedfuture.IPRiskList
+        params:
+            -   name: token
+                description: API Token
+                type: password
+                help: RecordedFuture API Token
+                required: true
         config:
             confidence: 80
             age_out:
@@ -35,11 +42,12 @@ prototypes:
                 share_level: red
 
     DomainRiskList:
+        name: Recorded Future Domain Risk List
         author: Jonas Eichinger
         development_status: STABLE
         node_type: miner
         indicator_types:
-            - Domain
+            - domain
         tags:
             - ConfidenceHigh
             - ShareLevelRed
@@ -51,6 +59,12 @@ prototypes:
             evidence details for risk scores. To access this resource, you need
             a valid API token.
         class: minemeld.ft.recordedfuture.DomainRiskList
+        params:
+            -   name: token
+                description: API Token
+                type: password
+                help: RecordedFuture API Token
+                required: true
         config:
             confidence: 80
             age_out:
@@ -59,3 +73,5 @@ prototypes:
                 interval: 3307
             attributes:
                 share_level: red
+                type: domain
+
